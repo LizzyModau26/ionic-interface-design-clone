@@ -1,33 +1,38 @@
-.container {
-  text-align: center;
-  
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 75%;
-  transform: translateY(-50%);
-}
-
-.container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-.container p {
-  font-size: 20px;
-  line-height: 22px;
-   font-stretch: expanded ;
-  color: white;
-
-  margin: 0;
-}
-
-.container a {
-  text-decoration: none;
-}
 ion-content{
-font-family: 'Nunito', sans-serif;
+   font-family: 'Nunito', sans-serif;
+ 
 }
-ion-content.background{
-  --background: url(../../assets/Image/ourBg2.png) 0 0/100% 100% no-repeat;
+#container{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  background: url(../../assets/Image/ourBg2.png) 0 0/100% 100% no-repeat;
+  align-items: center;
+  justify-content: center;
+
 }
+#inner-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 90%;
+  width: 80%;
+  
+ 
+}
+#text{
+  display: flex; 
+  text-align: center;
+  color: white;
+ 
+}
+#button{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 40px;
+  text-align: center;
+ 
+}
+
